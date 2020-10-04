@@ -13,7 +13,7 @@ private:
 	T undefined_nodes_helper;
 	//Represents the tree
 	T* seg;
-	//Stores the functions address which is used to combine the nodesto form the parent node
+	//Stores the functions address which is used to combine the nodes to form the parent node
 	T (*function)(T obj1, T obj2);
 
 	//Used to calculate the size of the segment-tree
